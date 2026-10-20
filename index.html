@@ -6,31 +6,86 @@
   <style>
     body { font-family: monospace; margin: 24px; color: #eee; background: #000; }
     h2 { margin: 0 0 6px 0; }
-    p { margin: 0 0 16px 0; font-size: 13px; color: #aaa; }
+    p { margin: 0 0 12px 0; font-size: 13px; color: #aaa; }
+    .controls { margin: 0 0 12px 0; display: flex; gap: 10px; align-items: center; flex-wrap: wrap; font-size: 13px; }
+    input, select { font-family: monospace; font-size: 13px; background: #111; color: #eee; border: 1px solid #333; padding: 4px 8px; }
     table { border-collapse: collapse; width: 100%; max-width: 860px; font-size: 13px; }
     th, td { border: 1px solid #333; padding: 6px 10px; text-align: left; }
-    th { background: #111; color: #fff; }
+    th { background: #111; color: #fff; cursor: pointer; user-select: none; }
+    th:hover { background: #1a1a1a; }
   </style>
 </head>
 <body>
   <h2>EECS 312 4x4 Multiplier Leaderboard</h2>
   <p>J = E * D^2 * A (lower is better)</p>
+  <div class="controls">
+    <input type="text" id="q" placeholder="Search uniqname...">
+    <label>Sort:
+      <select id="sort">
+        <option value="j:asc">J (lowest first)</option>
+        <option value="j:desc">J (highest first)</option>
+        <option value="e:asc">E (lowest first)</option>
+        <option value="e:desc">E (highest first)</option>
+        <option value="d:asc">D (lowest first)</option>
+        <option value="d:desc">D (highest first)</option>
+        <option value="area:asc">Area (lowest first)</option>
+        <option value="area:desc">Area (highest first)</option>
+        <option value="mos:asc">MOS (lowest first)</option>
+        <option value="mos:desc">MOS (highest first)</option>
+        <option value="uniqname:asc">Uniqname (A-Z)</option>
+        <option value="uniqname:desc">Uniqname (Z-A)</option>
+      </select>
+    </label>
+  </div>
   <table>
     <thead>
       <tr>
-        <th>Rank</th>
-        <th>Uniqname</th>
-        <th>J (J*s^2*um^2)</th>
-        <th>E (fJ)</th>
-        <th>D (ns)</th>
-        <th>Area (um^2)</th>
-        <th>MOS</th>
+        <th data-k="rank">Rank</th>
+        <th data-k="uniqname">Uniqname</th>
+        <th data-k="j">J (J*s^2*um^2)</th>
+        <th data-k="e">E (fJ)</th>
+        <th data-k="d">D (ns)</th>
+        <th data-k="area">Area (um^2)</th>
+        <th data-k="mos">MOS</th>
         <th>Pass</th>
       </tr>
     </thead>
-    <tbody>
-      <tr><td>1</td><td>bany</td><td>8.5661e-29</td><td>585.34</td><td>1.100</td><td>120.96</td><td>1344</td><td>16/16</td></tr>
-    </tbody>
+    <tbody id="tb"></tbody>
   </table>
+  <script>
+    const DATA = [{"rank": 1, "uniqname": "bany", "j": 8.566058630268142e-29, "e": 585.342945055735, "d": 1.0999284568464591, "area": 120.95999999999766, "mos": 1344, "pass": "16/16"}];
+    const qEl = document.getElementById("q");
+    const sEl = document.getElementById("sort");
+    const tb = document.getElementById("tb");
+
+    function render() {
+      const q = qEl.value.trim().toLowerCase();
+      const [key, dir] = sEl.value.split(":");
+      const mul = dir === "asc" ? 1 : -1;
+      const rows = DATA.filter(r => r.uniqname.toLowerCase().includes(q)).slice().sort((a, b) => {
+        if (typeof a[key] === "string") return mul * a[key].localeCompare(b[key]);
+        return mul * (a[key] - b[key]);
+      });
+      if (!rows.length) {
+        tb.innerHTML = '<tr><td colspan="8">No matching submissions.</td></tr>';
+        return;
+      }
+      tb.innerHTML = rows.map(r =>
+        `<tr><td>${r.rank}</td><td>${r.uniqname}</td><td>${r.j.toExponential(4)}</td><td>${r.e.toFixed(2)}</td><td>${r.d.toFixed(3)}</td><td>${r.area.toFixed(2)}</td><td>${r.mos}</td><td>${r.pass}</td></tr>`
+      ).join("");
+    }
+
+    qEl.addEventListener("input", render);
+    sEl.addEventListener("change", render);
+    document.querySelectorAll("th[data-k]").forEach(th => {
+      th.addEventListener("click", () => {
+        const k = th.getAttribute("data-k") === "rank" ? "j" : th.getAttribute("data-k");
+        const [curK, curD] = sEl.value.split(":");
+        sEl.value = `${k}:${curK === k && curD === "asc" ? "desc" : "asc"}`;
+        render();
+      });
+    });
+    render();
+  </script>
 </body>
 </html>
