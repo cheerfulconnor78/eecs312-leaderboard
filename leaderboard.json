@@ -1,0 +1,22 @@
+{
+  "updated_at": "2026-10-20T06:53:14.017922+00:00",
+  "entries": [
+    {
+      "uniqname": "bany",
+      "submitted_at": "2026-10-20T06:53:13.837044+00:00",
+      "library": "MULT4_IBM130",
+      "cell": "mult4",
+      "dut_sha256": "110816d5a69c5523f7e48d86fbd6459a8a9485e8ade979b7c0dc621bbaf5fdba",
+      "passed": 16,
+      "total": 16,
+      "average_power_w": 5.8534294505573505e-05,
+      "energy_per_operation_j": 5.85342945055735e-13,
+      "worst_output_settling_s": 1.0999284568464592e-09,
+      "mos_gate_area_um2": 120.95999999999766,
+      "mos_finger_count": 1344.0,
+      "objective_ed2a": 8.566058630268142e-29,
+      "objective_units": "J*s^2*um^2",
+      "verified_by_ta": false
+    }
+  ]
+}
