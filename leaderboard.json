@@ -1,6 +1,23 @@
 {
-  "updated_at": "2026-10-20T07:05:07.023007+00:00",
+  "updated_at": "2026-10-21T20:56:54.004637+00:00",
   "entries": [
+    {
+      "uniqname": "chenalb",
+      "submitted_at": "2026-10-21T20:55:25.415181+00:00",
+      "library": "PROJECT_TEST",
+      "cell": "mult4x4",
+      "dut_sha256": "9223450f3ba41aa324ed6ca16d4770876c9ce7b1eb85379f12710e44b9474d80",
+      "passed": 256,
+      "total": 256,
+      "average_power_w": 1.1490623189481981e-05,
+      "energy_per_operation_j": 1.149062318948198e-13,
+      "worst_output_settling_s": 1.3152114111702338e-09,
+      "mos_gate_area_um2": 16.934400000000004,
+      "mos_finger_count": 392.0,
+      "objective_ed2a": 3.365925765578407e-30,
+      "objective_units": "J*s^2*um^2",
+      "verified_by_ta": true
+    },
     {
       "uniqname": "bany",
       "submitted_at": "2026-10-20T06:55:18.581249+00:00",
