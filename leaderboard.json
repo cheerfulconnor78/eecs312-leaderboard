@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T19:36:53.650202+00:00",
+  "updated_at": "2026-10-31T19:30:20.900246+00:00",
   "entries": [
     {
       "uniqname": "chenalb",
@@ -20,18 +20,18 @@
     },
     {
       "uniqname": "bany",
-      "submitted_at": "2026-10-26T19:33:39.157608+00:00",
-      "library": "PROJECT_TEST",
-      "cell": "mult4x4",
-      "dut_sha256": "9223450f3ba41aa324ed6ca16d4770876c9ce7b1eb85379f12710e44b9474d80",
+      "submitted_at": "2026-10-31T19:15:52.679318+00:00",
+      "library": "MULT4_IBM130",
+      "cell": "mult4",
+      "dut_sha256": "110816d5a69c5523f7e48d86fbd6459a8a9485e8ade979b7c0dc621bbaf5fdba",
       "passed": 256,
       "total": 256,
-      "average_power_w": 1.1490623189481981e-05,
-      "energy_per_operation_j": 1.149062318948198e-13,
-      "worst_output_settling_s": 1.3152114111702338e-09,
-      "mos_gate_area_um2": 16.934400000000004,
-      "mos_finger_count": 392.0,
-      "objective_ed2a": 3.365925765578407e-30,
+      "average_power_w": 3.977173625641498e-05,
+      "energy_per_operation_j": 3.977173625641498e-13,
+      "worst_output_settling_s": 1.5987347624566822e-09,
+      "mos_gate_area_um2": 120.95999999999766,
+      "mos_finger_count": 1344.0,
+      "objective_ed2a": 1.2296150366611456e-28,
       "objective_units": "J*s^2*um^2",
       "verified_by_ta": true
     }
