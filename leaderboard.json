@@ -1,6 +1,23 @@
 {
-  "updated_at": "2026-11-03T20:49:25.168996+00:00",
+  "updated_at": "2026-11-04T03:35:49.652139+00:00",
   "entries": [
+    {
+      "uniqname": "rogerhui",
+      "submitted_at": "2026-11-04T03:31:47.936679+00:00",
+      "library": "multiplier",
+      "cell": "multi4X4",
+      "dut_sha256": "08205f669e4f3340529ac3adb8f87c634e08c15987135feab59d7f7d68bc2f56",
+      "passed": 256,
+      "total": 256,
+      "average_power_w": 7.558660074385558e-06,
+      "energy_per_operation_j": 7.558660074385559e-14,
+      "worst_output_settling_s": 5.591007153467109e-10,
+      "mos_gate_area_um2": 7.574400000000002,
+      "mos_finger_count": 536.0,
+      "objective_ed2a": 1.7896707779609054e-31,
+      "objective_units": "J*s^2*um^2",
+      "verified_by_ta": true
+    },
     {
       "uniqname": "chenalb",
       "submitted_at": "2026-11-03T20:45:52.046181+00:00",
