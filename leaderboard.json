@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T03:35:49.652139+00:00",
+  "updated_at": "2026-11-05T17:15:32.232406+00:00",
   "entries": [
     {
       "uniqname": "rogerhui",
@@ -15,6 +15,23 @@
       "mos_gate_area_um2": 7.574400000000002,
       "mos_finger_count": 536.0,
       "objective_ed2a": 1.7896707779609054e-31,
+      "objective_units": "J*s^2*um^2",
+      "verified_by_ta": true
+    },
+    {
+      "uniqname": "vaap",
+      "submitted_at": "2026-11-05T17:12:35.249539+00:00",
+      "library": "design_one",
+      "cell": "RippleCarry",
+      "dut_sha256": "6168f578c48bcc5e2d769b38e603bc9f43de1fb8e1f4d9c54db31addc9a00b86",
+      "passed": 256,
+      "total": 256,
+      "average_power_w": 9.3163602571357e-06,
+      "energy_per_operation_j": 9.3163602571357e-14,
+      "worst_output_settling_s": 8.760551696496102e-10,
+      "mos_gate_area_um2": 8.150400000000007,
+      "mos_finger_count": 392.0,
+      "objective_ed2a": 5.827578211390939e-31,
       "objective_units": "J*s^2*um^2",
       "verified_by_ta": true
     },
