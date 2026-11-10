@@ -1,6 +1,23 @@
 {
-  "updated_at": "2026-11-09T23:23:05.567583+00:00",
+  "updated_at": "2026-11-10T05:35:50.447157+00:00",
   "entries": [
+    {
+      "uniqname": "kuobenji",
+      "submitted_at": "2026-11-10T05:33:08.678971+00:00",
+      "library": "finalProject",
+      "cell": "RCAM",
+      "dut_sha256": "e0eb7b5dede41ea17f05d4a6aa91796c579d071a7b2ecca663355f6d9aef73c0",
+      "passed": 256,
+      "total": 256,
+      "average_power_w": 6.176828514568916e-06,
+      "energy_per_operation_j": 6.176828514568916e-14,
+      "worst_output_settling_s": 7.336717126343448e-10,
+      "mos_gate_area_um2": 3.974399999999998,
+      "mos_finger_count": 368.0,
+      "objective_ed2a": 1.3214193682876426e-31,
+      "objective_units": "J*s^2*um^2",
+      "verified_by_ta": true
+    },
     {
       "uniqname": "rogerhui",
       "submitted_at": "2026-11-08T02:47:38.558718+00:00",
