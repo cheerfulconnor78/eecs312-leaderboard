@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T20:01:49.579894+00:00",
+  "updated_at": "2026-11-10T22:54:57.363824+00:00",
   "entries": [
     {
       "uniqname": "kuobenji",
@@ -83,6 +83,23 @@
       "mos_gate_area_um2": 8.150400000000007,
       "mos_finger_count": 392.0,
       "objective_ed2a": 5.827578211390939e-31,
+      "objective_units": "J*s^2*um^2",
+      "verified_by_ta": true
+    },
+    {
+      "uniqname": "ethancon",
+      "submitted_at": "2026-11-10T22:51:48.149925+00:00",
+      "library": "checkpoint2",
+      "cell": "mulitplier",
+      "dut_sha256": "c6a14945e6d0271879667856cb35b44cbdd2f9ce9a891245c57e418506092891",
+      "passed": 256,
+      "total": 256,
+      "average_power_w": 8.163390231451942e-06,
+      "energy_per_operation_j": 8.163390231451943e-14,
+      "worst_output_settling_s": 9.831173610716469e-10,
+      "mos_gate_area_um2": 7.516800000000001,
+      "mos_finger_count": 392.0,
+      "objective_ed2a": 5.930813718338289e-31,
       "objective_units": "J*s^2*um^2",
       "verified_by_ta": true
     },
