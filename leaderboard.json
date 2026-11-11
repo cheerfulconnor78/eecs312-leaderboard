@@ -1,6 +1,23 @@
 {
-  "updated_at": "2026-11-11T02:26:05.373326+00:00",
+  "updated_at": "2026-11-11T02:33:05.180937+00:00",
   "entries": [
+    {
+      "uniqname": "johnspit",
+      "submitted_at": "2026-11-11T02:30:14.235851+00:00",
+      "library": "group3_poject",
+      "cell": "mult4x4",
+      "dut_sha256": "913e1386d5493e1de82651550e55b6bc04d8c2c8f29403a66ab85ad981a21d97",
+      "passed": 256,
+      "total": 256,
+      "average_power_w": 5.315095289827531e-06,
+      "energy_per_operation_j": 5.315095289827531e-14,
+      "worst_output_settling_s": 9.205399307528176e-10,
+      "mos_gate_area_um2": 2.822400000000002,
+      "mos_finger_count": 392.0,
+      "objective_ed2a": 1.271202921264204e-31,
+      "objective_units": "J*s^2*um^2",
+      "verified_by_ta": true
+    },
     {
       "uniqname": "kuobenji",
       "submitted_at": "2026-11-10T05:33:08.678971+00:00",
