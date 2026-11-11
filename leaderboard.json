@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T03:14:24.332020+00:00",
+  "updated_at": "2026-11-11T22:44:17.396252+00:00",
   "entries": [
     {
       "uniqname": "johnspit",
@@ -134,6 +134,23 @@
       "mos_gate_area_um2": 7.516800000000001,
       "mos_finger_count": 392.0,
       "objective_ed2a": 5.930813718338289e-31,
+      "objective_units": "J*s^2*um^2",
+      "verified_by_ta": true
+    },
+    {
+      "uniqname": "yojacob",
+      "submitted_at": "2026-11-11T22:38:56.331159+00:00",
+      "library": "Project",
+      "cell": "Multiplier",
+      "dut_sha256": "69823b23ff0dbd7fa1d9d0a37be7f8dad69ebbcf5d1275c100c9970e7febfa18",
+      "passed": 256,
+      "total": 256,
+      "average_power_w": 1.016038820259145e-05,
+      "energy_per_operation_j": 1.0160388202591451e-13,
+      "worst_output_settling_s": 8.368140553171639e-10,
+      "mos_gate_area_um2": 9.100800000000001,
+      "mos_finger_count": 632.0,
+      "objective_ed2a": 6.475119742589889e-31,
       "objective_units": "J*s^2*um^2",
       "verified_by_ta": true
     },
