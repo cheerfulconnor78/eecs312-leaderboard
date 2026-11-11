@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T02:37:45.270946+00:00",
+  "updated_at": "2026-11-11T03:14:24.332020+00:00",
   "entries": [
     {
       "uniqname": "johnspit",
@@ -71,18 +71,18 @@
     },
     {
       "uniqname": "gvu",
-      "submitted_at": "2026-11-11T02:23:05.042261+00:00",
+      "submitted_at": "2026-11-11T03:11:21.180630+00:00",
       "library": "MULT_4x4",
       "cell": "MULT_D1",
-      "dut_sha256": "d8a06d8890244af58b1afd066305241b41d724b700889977a53b2c9c42ccde1a",
+      "dut_sha256": "36e693e545c88340c1f3d174346ec2379514a78bf06a780ca02bd7f0f51cbfe9",
       "passed": 256,
       "total": 256,
-      "average_power_w": 9.307341135382074e-06,
-      "energy_per_operation_j": 9.307341135382074e-14,
-      "worst_output_settling_s": 7.946290241598735e-10,
-      "mos_gate_area_um2": 7.8048,
+      "average_power_w": 6.454782475812508e-06,
+      "energy_per_operation_j": 6.454782475812509e-14,
+      "worst_output_settling_s": 8.454562939240244e-10,
+      "mos_gate_area_um2": 4.406400000000002,
       "mos_finger_count": 392.0,
-      "objective_ed2a": 4.586868169545627e-31,
+      "objective_ed2a": 2.0330490324185625e-31,
       "objective_units": "J*s^2*um^2",
       "verified_by_ta": true
     },
