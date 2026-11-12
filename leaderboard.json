@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T18:35:40.958013+00:00",
+  "updated_at": "2026-11-12T19:38:09.173125+00:00",
   "entries": [
     {
       "uniqname": "rogerhui",
@@ -236,6 +236,23 @@
       "mos_gate_area_um2": 7.2,
       "mos_finger_count": 704.0,
       "objective_ed2a": 8.215518499630197e-31,
+      "objective_units": "J*s^2*um^2",
+      "verified_by_ta": true
+    },
+    {
+      "uniqname": "jriordan",
+      "submitted_at": "2026-11-12T19:34:01.261195+00:00",
+      "library": "D1_BASELINE",
+      "cell": "MULT4X4",
+      "dut_sha256": "fb7196635bddafeeb886699eb7c127a53f2dd58c1768ed318ff3f4612a6851b2",
+      "passed": 256,
+      "total": 256,
+      "average_power_w": 1.6125328473407137e-05,
+      "energy_per_operation_j": 1.6125328473407138e-13,
+      "worst_output_settling_s": 6.391791867493483e-10,
+      "mos_gate_area_um2": 16.41600000000001,
+      "mos_finger_count": 456.0,
+      "objective_ed2a": 1.081486650668568e-30,
       "objective_units": "J*s^2*um^2",
       "verified_by_ta": true
     },
