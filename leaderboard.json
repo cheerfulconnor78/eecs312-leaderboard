@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T21:52:37.370925+00:00",
+  "updated_at": "2026-11-12T22:08:32.499545+00:00",
   "entries": [
     {
       "uniqname": "rogerhui",
@@ -49,6 +49,23 @@
       "mos_gate_area_um2": 2.822400000000002,
       "mos_finger_count": 392.0,
       "objective_ed2a": 1.271202921264204e-31,
+      "objective_units": "J*s^2*um^2",
+      "verified_by_ta": true
+    },
+    {
+      "uniqname": "yudana",
+      "submitted_at": "2026-11-12T22:05:28.301430+00:00",
+      "library": "project",
+      "cell": "Ripple_carry_mult",
+      "dut_sha256": "1a577e4d514bdbf3a22132c5a6a23ea4b89ea6669896da09896a6d1628cbc76a",
+      "passed": 256,
+      "total": 256,
+      "average_power_w": 5.392001717219693e-06,
+      "energy_per_operation_j": 5.392001717219693e-14,
+      "worst_output_settling_s": 9.2327425180151e-10,
+      "mos_gate_area_um2": 2.822400000000002,
+      "mos_finger_count": 392.0,
+      "objective_ed2a": 1.2972689804456298e-31,
       "objective_units": "J*s^2*um^2",
       "verified_by_ta": true
     },
