@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T19:42:27.256178+00:00",
+  "updated_at": "2026-11-12T20:11:04.316634+00:00",
   "entries": [
     {
       "uniqname": "rogerhui",
@@ -257,6 +257,23 @@
       "verified_by_ta": true
     },
     {
+      "uniqname": "nguyener",
+      "submitted_at": "2026-11-12T18:52:47.332435+00:00",
+      "library": "D1_BASELINE",
+      "cell": "MULT4X4",
+      "dut_sha256": "fb7196635bddafeeb886699eb7c127a53f2dd58c1768ed318ff3f4612a6851b2",
+      "passed": 256,
+      "total": 256,
+      "average_power_w": 1.6125328473407137e-05,
+      "energy_per_operation_j": 1.6125328473407138e-13,
+      "worst_output_settling_s": 6.391791867493483e-10,
+      "mos_gate_area_um2": 16.41600000000001,
+      "mos_finger_count": 456.0,
+      "objective_ed2a": 1.081486650668568e-30,
+      "objective_units": "J*s^2*um^2",
+      "verified_by_ta": true
+    },
+    {
       "uniqname": "pickos",
       "submitted_at": "2026-11-07T01:51:18.802582+00:00",
       "library": "MULT4X4",
@@ -321,23 +338,6 @@
       "mos_gate_area_um2": 52.92,
       "mos_finger_count": 392.0,
       "objective_ed2a": 7.970331275498553e-30,
-      "objective_units": "J*s^2*um^2",
-      "verified_by_ta": true
-    },
-    {
-      "uniqname": "nguyener",
-      "submitted_at": "2026-11-12T18:26:43.858563+00:00",
-      "library": "D1_BASELINE",
-      "cell": "MULT4X4",
-      "dut_sha256": "c644fb8a2f9328ed7043c9cdd8b4463c8728b702c025a3ca9392f3588fc63652",
-      "passed": 256,
-      "total": 256,
-      "average_power_w": 2.0625174141994356e-05,
-      "energy_per_operation_j": 2.0625174141994357e-13,
-      "worst_output_settling_s": 1.4196405937658475e-09,
-      "mos_gate_area_um2": 32.83200000000002,
-      "mos_finger_count": 456.0,
-      "objective_ed2a": 1.364745847768857e-29,
       "objective_units": "J*s^2*um^2",
       "verified_by_ta": true
     },
