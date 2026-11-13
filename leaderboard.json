@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T00:23:22.270399+00:00",
+  "updated_at": "2026-11-13T00:24:52.267626+00:00",
   "entries": [
     {
       "uniqname": "rogerhui",
@@ -389,6 +389,23 @@
       "mos_gate_area_um2": 16.934400000000004,
       "mos_finger_count": 392.0,
       "objective_ed2a": 3.365925765578407e-30,
+      "objective_units": "J*s^2*um^2",
+      "verified_by_ta": true
+    },
+    {
+      "uniqname": "acabello",
+      "submitted_at": "2026-11-13T00:22:11.969833+00:00",
+      "library": "Project",
+      "cell": "Ripple",
+      "dut_sha256": "de60a565871cc4f09d8bd6c836b40ff2174103f3879ba201987e21a314986055",
+      "passed": 256,
+      "total": 256,
+      "average_power_w": 2.458553924061978e-05,
+      "energy_per_operation_j": 2.4585539240619783e-13,
+      "worst_output_settling_s": 8.627316986605974e-10,
+      "mos_gate_area_um2": 29.7024,
+      "mos_finger_count": 368.0,
+      "objective_ed2a": 5.43529088008192e-30,
       "objective_units": "J*s^2*um^2",
       "verified_by_ta": true
     },
