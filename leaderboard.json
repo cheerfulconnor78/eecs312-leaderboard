@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T22:08:32.499545+00:00",
+  "updated_at": "2026-11-13T00:18:07.359510+00:00",
   "entries": [
     {
       "uniqname": "rogerhui",
@@ -406,6 +406,23 @@
       "mos_gate_area_um2": 52.92,
       "mos_finger_count": 392.0,
       "objective_ed2a": 7.970331275498553e-30,
+      "objective_units": "J*s^2*um^2",
+      "verified_by_ta": true
+    },
+    {
+      "uniqname": "irration",
+      "submitted_at": "2026-11-13T00:12:39.728686+00:00",
+      "library": "Project3",
+      "cell": "multiplier44",
+      "dut_sha256": "f821d324d2237c20e855ba5bceb8f16858620d5e17f69ebdc70235b6674da885",
+      "passed": 256,
+      "total": 256,
+      "average_power_w": 2.8022541245400373e-05,
+      "energy_per_operation_j": 2.802254124540037e-13,
+      "worst_output_settling_s": 8.586640565716299e-10,
+      "mos_gate_area_um2": 40.3104,
+      "mos_finger_count": 664.0,
+      "objective_ed2a": 8.328584424407509e-30,
       "objective_units": "J*s^2*um^2",
       "verified_by_ta": true
     },
