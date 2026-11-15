@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-11-15T19:20:16.368996+00:00",
+  "updated_at": "2026-11-15T20:26:45.900464+00:00",
   "entries": [
     {
       "uniqname": "rogerhui",
-      "submitted_at": "2026-11-15T19:16:50.668083+00:00",
+      "submitted_at": "2026-11-15T20:23:16.060416+00:00",
       "library": "multiplier",
       "cell": "multi4X4_mj",
-      "dut_sha256": "a83d1e78abda45cdd1fdd36018bae12c374682d7a40d7021811d2b95504d8ce3",
+      "dut_sha256": "332dcbc141cc7229f67f66c877d9d2d384395f5b6a39033fc0a8a4c25a03ce47",
       "passed": 256,
       "total": 256,
-      "average_power_w": 5.072896615526537e-06,
-      "energy_per_operation_j": 5.0728966155265376e-14,
-      "worst_output_settling_s": 6.771388266313888e-10,
-      "mos_gate_area_um2": 3.427199999999998,
+      "average_power_w": 4.9800514535385545e-06,
+      "energy_per_operation_j": 4.9800514535385554e-14,
+      "worst_output_settling_s": 6.812755206126507e-10,
+      "mos_gate_area_um2": 3.312,
       "mos_finger_count": 456.0,
-      "objective_ed2a": 7.971699036733966e-32,
+      "objective_ed2a": 7.655432411924264e-32,
       "objective_units": "J*s^2*um^2",
       "verified_by_ta": true
     },
