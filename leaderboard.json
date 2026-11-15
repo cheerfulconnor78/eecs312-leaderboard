@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T20:26:45.900464+00:00",
+  "updated_at": "2026-11-15T20:30:05.534415+00:00",
   "entries": [
     {
       "uniqname": "rogerhui",
@@ -20,18 +20,18 @@
     },
     {
       "uniqname": "iancao",
-      "submitted_at": "2026-11-12T01:05:09.260481+00:00",
+      "submitted_at": "2026-11-15T20:26:54.875293+00:00",
       "library": "multiplier",
-      "cell": "multi4X4_0.1",
-      "dut_sha256": "62bc6de1da12f565e7e53af42a7ebb88aca0461c55e349c409a78fdfe8fba939",
+      "cell": "multi4X4_mj",
+      "dut_sha256": "332dcbc141cc7229f67f66c877d9d2d384395f5b6a39033fc0a8a4c25a03ce47",
       "passed": 256,
       "total": 256,
-      "average_power_w": 5.345062314986747e-06,
-      "energy_per_operation_j": 5.345062314986747e-14,
-      "worst_output_settling_s": 6.84675985694512e-10,
-      "mos_gate_area_um2": 4.0032000000000005,
-      "mos_finger_count": 536.0,
-      "objective_ed2a": 1.003067714676279e-31,
+      "average_power_w": 4.9800514535385545e-06,
+      "energy_per_operation_j": 4.9800514535385554e-14,
+      "worst_output_settling_s": 6.812755206126507e-10,
+      "mos_gate_area_um2": 3.312,
+      "mos_finger_count": 456.0,
+      "objective_ed2a": 7.655432411924264e-32,
       "objective_units": "J*s^2*um^2",
       "verified_by_ta": true
     },
