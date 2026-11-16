@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T20:30:28.447054+00:00",
+  "updated_at": "2026-11-16T19:00:02.197545+00:00",
   "entries": [
     {
       "uniqname": "rogerhui",
@@ -207,18 +207,18 @@
     },
     {
       "uniqname": "adejman",
-      "submitted_at": "2026-11-09T21:21:52.335405+00:00",
-      "library": "multiplier_baseline",
+      "submitted_at": "2026-11-16T18:55:22.502491+00:00",
+      "library": "multiplier_design2",
       "cell": "mul4_ripple_clean",
-      "dut_sha256": "207a1a230f5193f5079857e3f677d9212c41c43cafb02774f845bef98d602c69",
+      "dut_sha256": "f575c2a04a58059871efb21af7ac6ff6d4c43dfa2cbde095ab45c51ae2fea053",
       "passed": 256,
       "total": 256,
-      "average_power_w": 9.984929177694482e-06,
-      "energy_per_operation_j": 9.984929177694483e-14,
-      "worst_output_settling_s": 7.724019620280467e-10,
-      "mos_gate_area_um2": 8.265600000000003,
+      "average_power_w": 9.509137307990702e-06,
+      "energy_per_operation_j": 9.509137307990702e-14,
+      "worst_output_settling_s": 7.652891226419369e-10,
+      "mos_gate_area_um2": 7.670399999999999,
       "mos_finger_count": 600.0,
-      "objective_ed2a": 4.923864690613936e-31,
+      "objective_ed2a": 4.2717931202840915e-31,
       "objective_units": "J*s^2*um^2",
       "verified_by_ta": true
     },
