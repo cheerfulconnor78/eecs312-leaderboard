@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T20:12:28.131202+00:00",
+  "updated_at": "2026-11-17T00:56:29.681799+00:00",
   "entries": [
     {
       "uniqname": "rogerhui",
@@ -121,6 +121,23 @@
       "verified_by_ta": true
     },
     {
+      "uniqname": "adejman",
+      "submitted_at": "2026-11-17T00:52:43.967497+00:00",
+      "library": "multiplier_design3",
+      "cell": "mul4_ripple_clean",
+      "dut_sha256": "54e93b9d1ba1541d6fea738e26e0d6e6d666d6345ab64f13efe913a0111e39a4",
+      "passed": 256,
+      "total": 256,
+      "average_power_w": 7.301291143516168e-06,
+      "energy_per_operation_j": 7.301291143516168e-14,
+      "worst_output_settling_s": 6.963441724933352e-10,
+      "mos_gate_area_um2": 5.032800000000003,
+      "mos_finger_count": 472.0,
+      "objective_ed2a": 1.7817929229481144e-31,
+      "objective_units": "J*s^2*um^2",
+      "verified_by_ta": true
+    },
+    {
       "uniqname": "bczarnec",
       "submitted_at": "2026-11-10T19:53:49.635520+00:00",
       "library": "design1",
@@ -185,23 +202,6 @@
       "mos_gate_area_um2": 3.3408000000000007,
       "mos_finger_count": 464.0,
       "objective_ed2a": 2.8113666953464745e-31,
-      "objective_units": "J*s^2*um^2",
-      "verified_by_ta": true
-    },
-    {
-      "uniqname": "adejman",
-      "submitted_at": "2026-11-16T20:07:25.516331+00:00",
-      "library": "multiplier_design2",
-      "cell": "mul4_ripple_clean",
-      "dut_sha256": "a2e754efbec6efd7be0a15ead343a64a3908bad913bcbc44447218c109a0c2c8",
-      "passed": 256,
-      "total": 256,
-      "average_power_w": 8.397991715150997e-06,
-      "energy_per_operation_j": 8.397991715150997e-14,
-      "worst_output_settling_s": 7.765105920016801e-10,
-      "mos_gate_area_um2": 6.405599999999994,
-      "mos_finger_count": 600.0,
-      "objective_ed2a": 3.2436204180442045e-31,
       "objective_units": "J*s^2*um^2",
       "verified_by_ta": true
     },
