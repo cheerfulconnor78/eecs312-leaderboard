@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T07:16:17.167249+00:00",
+  "updated_at": "2026-11-23T19:20:11.918210+00:00",
   "entries": [
     {
       "uniqname": "rogerhui",
@@ -49,6 +49,23 @@
       "mos_gate_area_um2": 3.312,
       "mos_finger_count": 456.0,
       "objective_ed2a": 7.655432411924264e-32,
+      "objective_units": "J*s^2*um^2",
+      "verified_by_ta": true
+    },
+    {
+      "uniqname": "bczarnec",
+      "submitted_at": "2026-11-23T19:16:40.557875+00:00",
+      "library": "design2",
+      "cell": "mult4",
+      "dut_sha256": "eb81afcb8967b38a567b0f27cc01a7ebec1bc0dd6ee746d2120444096d2fb0c4",
+      "passed": 256,
+      "total": 256,
+      "average_power_w": 6.622217614664043e-06,
+      "energy_per_operation_j": 6.622217614664044e-14,
+      "worst_output_settling_s": 6.186139997810584e-10,
+      "mos_gate_area_um2": 4.718399999999999,
+      "mos_finger_count": 378.0,
+      "objective_ed2a": 1.1957425723649132e-31,
       "objective_units": "J*s^2*um^2",
       "verified_by_ta": true
     },
@@ -151,23 +168,6 @@
       "mos_gate_area_um2": 3.1104000000000025,
       "mos_finger_count": 432.0,
       "objective_ed2a": 1.710686152985227e-31,
-      "objective_units": "J*s^2*um^2",
-      "verified_by_ta": true
-    },
-    {
-      "uniqname": "bczarnec",
-      "submitted_at": "2026-11-10T19:53:49.635520+00:00",
-      "library": "design1",
-      "cell": "mult4",
-      "dut_sha256": "17d85718da67afc72e52bab7d1b345a911a274fae377c3d0a2812fbc6c16dc71",
-      "passed": 256,
-      "total": 256,
-      "average_power_w": 6.73546802868058e-06,
-      "energy_per_operation_j": 6.735468028680581e-14,
-      "worst_output_settling_s": 7.832761777252568e-10,
-      "mos_gate_area_um2": 4.464000000000001,
-      "mos_finger_count": 392.0,
-      "objective_ed2a": 1.8446832379073424e-31,
       "objective_units": "J*s^2*um^2",
       "verified_by_ta": true
     },
