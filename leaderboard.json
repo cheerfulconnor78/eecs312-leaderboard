@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T04:09:44.455347+00:00",
+  "updated_at": "2026-11-24T04:34:33.331928+00:00",
   "entries": [
     {
       "uniqname": "rogerhui",
@@ -121,6 +121,23 @@
       "verified_by_ta": true
     },
     {
+      "uniqname": "menonsid",
+      "submitted_at": "2026-11-24T04:31:02.883883+00:00",
+      "library": "design_one",
+      "cell": "RippleCarry",
+      "dut_sha256": "a91555915be4b0d39f52c67eccdd86d9cf3694fe60796c41e3506d48b73238d3",
+      "passed": 256,
+      "total": 256,
+      "average_power_w": 5.293116490655878e-06,
+      "energy_per_operation_j": 5.293116490655878e-14,
+      "worst_output_settling_s": 9.377330750103153e-10,
+      "mos_gate_area_um2": 2.822400000000002,
+      "mos_finger_count": 392.0,
+      "objective_ed2a": 1.3136766610506805e-31,
+      "objective_units": "J*s^2*um^2",
+      "verified_by_ta": true
+    },
+    {
       "uniqname": "kuobenji",
       "submitted_at": "2026-11-10T05:33:08.678971+00:00",
       "library": "finalProject",
@@ -236,23 +253,6 @@
       "mos_gate_area_um2": 3.3408000000000007,
       "mos_finger_count": 464.0,
       "objective_ed2a": 2.8113666953464745e-31,
-      "objective_units": "J*s^2*um^2",
-      "verified_by_ta": true
-    },
-    {
-      "uniqname": "menonsid",
-      "submitted_at": "2026-11-24T03:41:09.926974+00:00",
-      "library": "design_one",
-      "cell": "MirrorRipple",
-      "dut_sha256": "6855ca7239bdb75b51ea24d9df2917d05d86bd9ba46d3c02e85138394fc703f2",
-      "passed": 256,
-      "total": 256,
-      "average_power_w": 6.763383800668594e-06,
-      "energy_per_operation_j": 6.763383800668593e-14,
-      "worst_output_settling_s": 8.801607093662606e-10,
-      "mos_gate_area_um2": 5.698800000000001,
-      "mos_finger_count": 346.0,
-      "objective_ed2a": 2.98587349627111e-31,
       "objective_units": "J*s^2*um^2",
       "verified_by_ta": true
     },
