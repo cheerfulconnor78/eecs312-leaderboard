@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T04:47:46.045962+00:00",
+  "updated_at": "2026-11-24T06:13:30.312536+00:00",
   "entries": [
     {
       "uniqname": "yaghofgm",
@@ -219,6 +219,23 @@
       "mos_gate_area_um2": 3.1104000000000025,
       "mos_finger_count": 432.0,
       "objective_ed2a": 1.710686152985227e-31,
+      "objective_units": "J*s^2*um^2",
+      "verified_by_ta": true
+    },
+    {
+      "uniqname": "jriordan",
+      "submitted_at": "2026-11-24T06:08:24.283813+00:00",
+      "library": "Design_2",
+      "cell": "MULT4X4",
+      "dut_sha256": "d5ce55a4c7ff65d8a63568e8b32a15bde1cbd6ca4aafea8dbe96ec5392980957",
+      "passed": 256,
+      "total": 256,
+      "average_power_w": 6.968406146428953e-06,
+      "energy_per_operation_j": 6.968406146428953e-14,
+      "worst_output_settling_s": 7.757953617968131e-10,
+      "mos_gate_area_um2": 4.176000000000001,
+      "mos_finger_count": 456.0,
+      "objective_ed2a": 1.7514119262074727e-31,
       "objective_units": "J*s^2*um^2",
       "verified_by_ta": true
     },
@@ -508,23 +525,6 @@
       "mos_gate_area_um2": 11.6928,
       "mos_finger_count": 504.0,
       "objective_ed2a": 1.0155185080940197e-30,
-      "objective_units": "J*s^2*um^2",
-      "verified_by_ta": true
-    },
-    {
-      "uniqname": "jriordan",
-      "submitted_at": "2026-11-12T19:34:01.261195+00:00",
-      "library": "D1_BASELINE",
-      "cell": "MULT4X4",
-      "dut_sha256": "fb7196635bddafeeb886699eb7c127a53f2dd58c1768ed318ff3f4612a6851b2",
-      "passed": 256,
-      "total": 256,
-      "average_power_w": 1.6125328473407137e-05,
-      "energy_per_operation_j": 1.6125328473407138e-13,
-      "worst_output_settling_s": 6.391791867493483e-10,
-      "mos_gate_area_um2": 16.41600000000001,
-      "mos_finger_count": 456.0,
-      "objective_ed2a": 1.081486650668568e-30,
       "objective_units": "J*s^2*um^2",
       "verified_by_ta": true
     },
