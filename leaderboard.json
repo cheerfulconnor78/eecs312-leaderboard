@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T04:34:33.331928+00:00",
+  "updated_at": "2026-11-24T04:44:58.106781+00:00",
   "entries": [
     {
       "uniqname": "rogerhui",
@@ -223,6 +223,23 @@
       "verified_by_ta": true
     },
     {
+      "uniqname": "vaibh",
+      "submitted_at": "2026-11-24T04:40:42.877028+00:00",
+      "library": "checkpoint_1",
+      "cell": "carry_save",
+      "dut_sha256": "7784ae5968c509a1518b02f7a4e67496151df6fd298a138f414568bbc62ddfb4",
+      "passed": 256,
+      "total": 256,
+      "average_power_w": 6.099041460877016e-06,
+      "energy_per_operation_j": 6.099041460877016e-14,
+      "worst_output_settling_s": 8.284853559210722e-10,
+      "mos_gate_area_um2": 5.0112000000000005,
+      "mos_finger_count": 464.0,
+      "objective_ed2a": 2.097843055139256e-31,
+      "objective_units": "J*s^2*um^2",
+      "verified_by_ta": true
+    },
+    {
       "uniqname": "vktruong",
       "submitted_at": "2026-11-12T20:26:24.866702+00:00",
       "library": "mult",
@@ -270,23 +287,6 @@
       "mos_gate_area_um2": 4.204800000000001,
       "mos_finger_count": 584.0,
       "objective_ed2a": 4.226633080915851e-31,
-      "objective_units": "J*s^2*um^2",
-      "verified_by_ta": true
-    },
-    {
-      "uniqname": "vaibh",
-      "submitted_at": "2026-11-24T04:05:32.487041+00:00",
-      "library": "checkpoint_1",
-      "cell": "carry_save",
-      "dut_sha256": "0ac7a36e2ea8d36f071a7fefbb92c3f906f15115ac672a24084f684093263c01",
-      "passed": 256,
-      "total": 256,
-      "average_power_w": 9.291000202350982e-06,
-      "energy_per_operation_j": 9.291000202350981e-14,
-      "worst_output_settling_s": 6.806052688343884e-10,
-      "mos_gate_area_um2": 10.022400000000001,
-      "mos_finger_count": 464.0,
-      "objective_ed2a": 4.313450463463217e-31,
       "objective_units": "J*s^2*um^2",
       "verified_by_ta": true
     },
