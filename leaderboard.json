@@ -1,6 +1,23 @@
 {
-  "updated_at": "2026-11-24T04:44:58.106781+00:00",
+  "updated_at": "2026-11-24T04:47:46.045962+00:00",
   "entries": [
+    {
+      "uniqname": "yaghofgm",
+      "submitted_at": "2026-11-24T04:42:36.927094+00:00",
+      "library": "MULT4X4_D2final_1",
+      "cell": "wallace",
+      "dut_sha256": "a713315d6c0015e71bfb737a9e779c3f036c763c632272f7f43c5cdb73b22fb1",
+      "passed": 256,
+      "total": 256,
+      "average_power_w": 4.804165319361323e-06,
+      "energy_per_operation_j": 4.804165319361323e-14,
+      "worst_output_settling_s": 6.094136881390872e-10,
+      "mos_gate_area_um2": 2.851200000000002,
+      "mos_finger_count": 372.0,
+      "objective_ed2a": 5.08709719773619e-32,
+      "objective_units": "J*s^2*um^2",
+      "verified_by_ta": true
+    },
     {
       "uniqname": "rogerhui",
       "submitted_at": "2026-11-15T20:23:16.060416+00:00",
@@ -440,23 +457,6 @@
       "mos_gate_area_um2": 8.870400000000002,
       "mos_finger_count": 384.0,
       "objective_ed2a": 7.4559526117007966e-31,
-      "objective_units": "J*s^2*um^2",
-      "verified_by_ta": true
-    },
-    {
-      "uniqname": "yaghofgm",
-      "submitted_at": "2026-11-23T07:13:51.608464+00:00",
-      "library": "MULT4X4_D2",
-      "cell": "wallace",
-      "dut_sha256": "918abf12d5c8d5f5da1a12d10f768bacc6e838386a9ca59c7598dd68185818a7",
-      "passed": 256,
-      "total": 256,
-      "average_power_w": 1.2308741953707902e-05,
-      "energy_per_operation_j": 1.2308741953707902e-13,
-      "worst_output_settling_s": 6.423297475313143e-10,
-      "mos_gate_area_um2": 15.897600000000008,
-      "mos_finger_count": 368.0,
-      "objective_ed2a": 8.073489847976584e-31,
       "objective_units": "J*s^2*um^2",
       "verified_by_ta": true
     },
