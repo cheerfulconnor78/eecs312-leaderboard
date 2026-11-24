@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T03:31:53.995494+00:00",
+  "updated_at": "2026-11-24T03:44:13.442680+00:00",
   "entries": [
     {
       "uniqname": "rogerhui",
@@ -241,18 +241,18 @@
     },
     {
       "uniqname": "menonsid",
-      "submitted_at": "2026-11-23T04:52:00.269373+00:00",
+      "submitted_at": "2026-11-24T03:41:09.926974+00:00",
       "library": "design_one",
       "cell": "MirrorRipple",
-      "dut_sha256": "8fd51a5a3180f3ec8deb532c1a179ab14cfbd1fc1e72515cd5d7b1ae912e2092",
+      "dut_sha256": "6855ca7239bdb75b51ea24d9df2917d05d86bd9ba46d3c02e85138394fc703f2",
       "passed": 256,
       "total": 256,
-      "average_power_w": 6.676163612041237e-06,
-      "energy_per_operation_j": 6.676163612041238e-14,
-      "worst_output_settling_s": 9.745525820555079e-10,
-      "mos_gate_area_um2": 5.608800000000002,
+      "average_power_w": 6.763383800668594e-06,
+      "energy_per_operation_j": 6.763383800668593e-14,
+      "worst_output_settling_s": 8.801607093662606e-10,
+      "mos_gate_area_um2": 5.698800000000001,
       "mos_finger_count": 346.0,
-      "objective_ed2a": 3.5563744247197243e-31,
+      "objective_ed2a": 2.98587349627111e-31,
       "objective_units": "J*s^2*um^2",
       "verified_by_ta": true
     },
