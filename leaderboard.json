@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T03:30:53.518739+00:00",
+  "updated_at": "2026-11-25T04:45:11.757376+00:00",
   "entries": [
     {
       "uniqname": "yaghofgm",
@@ -87,6 +87,23 @@
       "verified_by_ta": true
     },
     {
+      "uniqname": "menonsid",
+      "submitted_at": "2026-11-25T04:41:51.519912+00:00",
+      "library": "design_one",
+      "cell": "DaddaMult_BASIC",
+      "dut_sha256": "32140dbd4115678fa912023ed497bcd303b8783202edbd7675be2ab3fae65baf",
+      "passed": 256,
+      "total": 256,
+      "average_power_w": 4.632006588867325e-06,
+      "energy_per_operation_j": 4.6320065888673254e-14,
+      "worst_output_settling_s": 8.723707318634407e-10,
+      "mos_gate_area_um2": 2.822400000000002,
+      "mos_finger_count": 392.0,
+      "objective_ed2a": 9.949239948401009e-32,
+      "objective_units": "J*s^2*um^2",
+      "verified_by_ta": true
+    },
+    {
       "uniqname": "bczarnec",
       "submitted_at": "2026-11-23T19:16:40.557875+00:00",
       "library": "design2",
@@ -134,23 +151,6 @@
       "mos_gate_area_um2": 2.822400000000002,
       "mos_finger_count": 392.0,
       "objective_ed2a": 1.2972689804456298e-31,
-      "objective_units": "J*s^2*um^2",
-      "verified_by_ta": true
-    },
-    {
-      "uniqname": "menonsid",
-      "submitted_at": "2026-11-24T04:31:02.883883+00:00",
-      "library": "design_one",
-      "cell": "RippleCarry",
-      "dut_sha256": "a91555915be4b0d39f52c67eccdd86d9cf3694fe60796c41e3506d48b73238d3",
-      "passed": 256,
-      "total": 256,
-      "average_power_w": 5.293116490655878e-06,
-      "energy_per_operation_j": 5.293116490655878e-14,
-      "worst_output_settling_s": 9.377330750103153e-10,
-      "mos_gate_area_um2": 2.822400000000002,
-      "mos_finger_count": 392.0,
-      "objective_ed2a": 1.3136766610506805e-31,
       "objective_units": "J*s^2*um^2",
       "verified_by_ta": true
     },
