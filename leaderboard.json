@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T04:48:10.364708+00:00",
+  "updated_at": "2026-11-25T05:32:18.032326+00:00",
   "entries": [
     {
       "uniqname": "yaghofgm",
@@ -173,18 +173,18 @@
     },
     {
       "uniqname": "saulro",
-      "submitted_at": "2026-11-25T04:42:39.387911+00:00",
+      "submitted_at": "2026-11-25T05:29:15.828698+00:00",
       "library": "finalProject",
       "cell": "RCAM_change_size",
-      "dut_sha256": "9b944d26550d4daab97884a0d032419741f982af855842b850c7136f8a15fffb",
+      "dut_sha256": "1bc13789c4476c187f71871c4a063d8b7d38e68b11e95255c01e250bf21b852c",
       "passed": 256,
       "total": 256,
-      "average_power_w": 5.877569415687429e-06,
-      "energy_per_operation_j": 5.87756941568743e-14,
-      "worst_output_settling_s": 9.132271136930826e-10,
-      "mos_gate_area_um2": 3.024000000000003,
+      "average_power_w": 6.351733871575263e-06,
+      "energy_per_operation_j": 6.351733871575262e-14,
+      "worst_output_settling_s": 7.932184997368617e-10,
+      "mos_gate_area_um2": 3.8736000000000024,
       "mos_finger_count": 368.0,
-      "objective_ed2a": 1.4823035482498647e-31,
+      "objective_ed2a": 1.5480776278455042e-31,
       "objective_units": "J*s^2*um^2",
       "verified_by_ta": true
     },
