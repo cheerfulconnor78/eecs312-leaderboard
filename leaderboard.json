@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T01:04:59.915355+00:00",
+  "updated_at": "2026-11-26T03:08:14.959319+00:00",
   "entries": [
     {
       "uniqname": "yaghofgm",
@@ -342,6 +342,23 @@
       "verified_by_ta": true
     },
     {
+      "uniqname": "vaap",
+      "submitted_at": "2026-11-26T03:03:49.761493+00:00",
+      "library": "design_one",
+      "cell": "ManchesterMultiplier",
+      "dut_sha256": "4ac062a551cd894916f98837f489bcdbb0fe2b543aa3f4f94cc2399fec87fe9b",
+      "passed": 256,
+      "total": 256,
+      "average_power_w": 5.643143146651028e-06,
+      "energy_per_operation_j": 5.643143146651028e-14,
+      "worst_output_settling_s": 1.2808617426245117e-09,
+      "mos_gate_area_um2": 3.3984,
+      "mos_finger_count": 472.0,
+      "objective_ed2a": 3.146299565210687e-31,
+      "objective_units": "J*s^2*um^2",
+      "verified_by_ta": true
+    },
+    {
       "uniqname": "rkleinin",
       "submitted_at": "2026-11-12T18:18:12.191241+00:00",
       "library": "design1",
@@ -372,23 +389,6 @@
       "mos_gate_area_um2": 12.441600000000008,
       "mos_finger_count": 384.0,
       "objective_ed2a": 5.058938047867751e-31,
-      "objective_units": "J*s^2*um^2",
-      "verified_by_ta": true
-    },
-    {
-      "uniqname": "vaap",
-      "submitted_at": "2026-11-19T16:22:48.112910+00:00",
-      "library": "design_one",
-      "cell": "ManchesterMultiplier",
-      "dut_sha256": "0c809d5c32a499403a3706f1bc4870485749107b41b804193b0be0c6d80be88f",
-      "passed": 256,
-      "total": 256,
-      "average_power_w": 8.790882028030951e-06,
-      "energy_per_operation_j": 8.79088202803095e-14,
-      "worst_output_settling_s": 9.444652019810457e-10,
-      "mos_gate_area_um2": 6.9984,
-      "mos_finger_count": 472.0,
-      "objective_ed2a": 5.487861419898022e-31,
       "objective_units": "J*s^2*um^2",
       "verified_by_ta": true
     },
