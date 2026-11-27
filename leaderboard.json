@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T02:33:47.805866+00:00",
+  "updated_at": "2026-11-27T02:36:59.950932+00:00",
   "entries": [
     {
       "uniqname": "yaghofgm",
@@ -275,18 +275,18 @@
     },
     {
       "uniqname": "vaibh",
-      "submitted_at": "2026-11-24T04:40:42.877028+00:00",
+      "submitted_at": "2026-11-27T02:09:43.874657+00:00",
       "library": "checkpoint_1",
-      "cell": "carry_save",
-      "dut_sha256": "7784ae5968c509a1518b02f7a4e67496151df6fd298a138f414568bbc62ddfb4",
+      "cell": "ripple_carry_transmission",
+      "dut_sha256": "8eb54bc7e24a6cc61cb352cfe8adea8beddf81716442827f699a0e13d550c17d",
       "passed": 256,
       "total": 256,
-      "average_power_w": 6.099041460877016e-06,
-      "energy_per_operation_j": 6.099041460877016e-14,
-      "worst_output_settling_s": 8.284853559210722e-10,
-      "mos_gate_area_um2": 5.0112000000000005,
-      "mos_finger_count": 464.0,
-      "objective_ed2a": 2.097843055139256e-31,
+      "average_power_w": 7.252728162091004e-06,
+      "energy_per_operation_j": 7.252728162091004e-14,
+      "worst_output_settling_s": 6.409557945514818e-10,
+      "mos_gate_area_um2": 7.257599999999997,
+      "mos_finger_count": 336.0,
+      "objective_ed2a": 2.162472458059279e-31,
       "objective_units": "J*s^2*um^2",
       "verified_by_ta": true
     },
