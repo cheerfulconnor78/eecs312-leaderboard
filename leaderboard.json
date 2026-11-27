@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T22:35:28.649609+00:00",
+  "updated_at": "2026-11-27T22:37:42.462129+00:00",
   "entries": [
     {
       "uniqname": "yaghofgm",
@@ -189,23 +189,6 @@
       "verified_by_ta": true
     },
     {
-      "uniqname": "ethancon",
-      "submitted_at": "2026-11-27T21:53:03.021136+00:00",
-      "library": "checkpoint3Dadda",
-      "cell": "multiplier",
-      "dut_sha256": "72c52e3995e06725928ac92c094278f8f2a3716fef884e864bea8c1265c54d1e",
-      "passed": 256,
-      "total": 256,
-      "average_power_w": 4.391100845244059e-06,
-      "energy_per_operation_j": 4.3911008452440583e-14,
-      "worst_output_settling_s": 1.0126565994595436e-09,
-      "mos_gate_area_um2": 2.7576,
-      "mos_finger_count": 330.0,
-      "objective_ed2a": 1.2417354396117303e-31,
-      "objective_units": "J*s^2*um^2",
-      "verified_by_ta": true
-    },
-    {
       "uniqname": "yudana",
       "submitted_at": "2026-11-12T22:05:28.301430+00:00",
       "library": "project",
@@ -304,6 +287,23 @@
       "mos_gate_area_um2": 4.176000000000001,
       "mos_finger_count": 456.0,
       "objective_ed2a": 1.7514119262074727e-31,
+      "objective_units": "J*s^2*um^2",
+      "verified_by_ta": true
+    },
+    {
+      "uniqname": "ethancon",
+      "submitted_at": "2026-11-27T22:35:39.639805+00:00",
+      "library": "checkpoint3Dadda",
+      "cell": "multiplier",
+      "dut_sha256": "b707aff315a731edc6a96843a77aff7be7ea54860b11b0059ba58a664ce16c17",
+      "passed": 256,
+      "total": 256,
+      "average_power_w": 4.817302017479188e-06,
+      "energy_per_operation_j": 4.817302017479189e-14,
+      "worst_output_settling_s": 1.0162568052172231e-09,
+      "mos_gate_area_um2": 3.542400000000002,
+      "mos_finger_count": 330.0,
+      "objective_ed2a": 1.762415922444718e-31,
       "objective_units": "J*s^2*um^2",
       "verified_by_ta": true
     },
