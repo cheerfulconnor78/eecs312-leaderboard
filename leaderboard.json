@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T04:13:08.569692+00:00",
+  "updated_at": "2026-11-27T05:13:49.215203+00:00",
   "entries": [
     {
       "uniqname": "yaghofgm",
@@ -117,6 +117,23 @@
       "mos_gate_area_um2": 2.822400000000002,
       "mos_finger_count": 392.0,
       "objective_ed2a": 9.949239948401009e-32,
+      "objective_units": "J*s^2*um^2",
+      "verified_by_ta": true
+    },
+    {
+      "uniqname": "reidcoop",
+      "submitted_at": "2026-11-27T05:11:50.775960+00:00",
+      "library": "checkpoint_1",
+      "cell": "wallace",
+      "dut_sha256": "5406f690c11a5f4b67555ef01cd520baab4c0caabd48033470bafdabdd0fda66",
+      "passed": 256,
+      "total": 256,
+      "average_power_w": 6.058878806823142e-06,
+      "energy_per_operation_j": 6.058878806823142e-14,
+      "worst_output_settling_s": 6.316735224705223e-10,
+      "mos_gate_area_um2": 4.320000000000001,
+      "mos_finger_count": 336.0,
+      "objective_ed2a": 1.044386762995486e-31,
       "objective_units": "J*s^2*um^2",
       "verified_by_ta": true
     },
