@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T03:08:14.959319+00:00",
+  "updated_at": "2026-11-27T02:33:47.805866+00:00",
   "entries": [
     {
       "uniqname": "yaghofgm",
@@ -432,6 +432,23 @@
       "library": "checkpoint2",
       "cell": "mulitplier",
       "dut_sha256": "c6a14945e6d0271879667856cb35b44cbdd2f9ce9a891245c57e418506092891",
+      "passed": 256,
+      "total": 256,
+      "average_power_w": 8.163390231451942e-06,
+      "energy_per_operation_j": 8.163390231451943e-14,
+      "worst_output_settling_s": 9.831173610716469e-10,
+      "mos_gate_area_um2": 7.516800000000001,
+      "mos_finger_count": 392.0,
+      "objective_ed2a": 5.930813718338289e-31,
+      "objective_units": "J*s^2*um^2",
+      "verified_by_ta": true
+    },
+    {
+      "uniqname": "lmalmros",
+      "submitted_at": "2026-11-26T04:42:37.736304+00:00",
+      "library": "checkpoint3RippleMirror",
+      "cell": "multiplier_TB",
+      "dut_sha256": "ddc7bd0d983d5427dcd7d009437b836bf03e431026799b3dc570e92112f8da29",
       "passed": 256,
       "total": 256,
       "average_power_w": 8.163390231451942e-06,
