@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T22:37:42.462129+00:00",
+  "updated_at": "2026-11-27T23:11:43.552975+00:00",
   "entries": [
     {
       "uniqname": "yaghofgm",
@@ -291,23 +291,6 @@
       "verified_by_ta": true
     },
     {
-      "uniqname": "ethancon",
-      "submitted_at": "2026-11-27T22:35:39.639805+00:00",
-      "library": "checkpoint3Dadda",
-      "cell": "multiplier",
-      "dut_sha256": "b707aff315a731edc6a96843a77aff7be7ea54860b11b0059ba58a664ce16c17",
-      "passed": 256,
-      "total": 256,
-      "average_power_w": 4.817302017479188e-06,
-      "energy_per_operation_j": 4.817302017479189e-14,
-      "worst_output_settling_s": 1.0162568052172231e-09,
-      "mos_gate_area_um2": 3.542400000000002,
-      "mos_finger_count": 330.0,
-      "objective_ed2a": 1.762415922444718e-31,
-      "objective_units": "J*s^2*um^2",
-      "verified_by_ta": true
-    },
-    {
       "uniqname": "gvu",
       "submitted_at": "2026-11-11T03:11:21.180630+00:00",
       "library": "MULT_4x4",
@@ -321,6 +304,23 @@
       "mos_gate_area_um2": 4.406400000000002,
       "mos_finger_count": 392.0,
       "objective_ed2a": 2.0330490324185625e-31,
+      "objective_units": "J*s^2*um^2",
+      "verified_by_ta": true
+    },
+    {
+      "uniqname": "ethancon",
+      "submitted_at": "2026-11-27T23:09:43.298821+00:00",
+      "library": "checkpoint3Dadda",
+      "cell": "multiplierAllSized",
+      "dut_sha256": "ca1c89dda3dfe30acd296aa484477d9ac869eea44a4772425c0c9b1378f51fbd",
+      "passed": 256,
+      "total": 256,
+      "average_power_w": 5.3113757385297034e-06,
+      "energy_per_operation_j": 5.311375738529704e-14,
+      "worst_output_settling_s": 1.0388265365966073e-09,
+      "mos_gate_area_um2": 4.399200000000002,
+      "mos_finger_count": 330.0,
+      "objective_ed2a": 2.521545459718392e-31,
       "objective_units": "J*s^2*um^2",
       "verified_by_ta": true
     },
