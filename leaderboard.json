@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T21:52:26.420668+00:00",
+  "updated_at": "2026-11-27T21:55:02.419177+00:00",
   "entries": [
     {
       "uniqname": "yaghofgm",
@@ -185,6 +185,23 @@
       "mos_gate_area_um2": 2.7432000000000025,
       "mos_finger_count": 368.0,
       "objective_ed2a": 1.2409342897177452e-31,
+      "objective_units": "J*s^2*um^2",
+      "verified_by_ta": true
+    },
+    {
+      "uniqname": "ethancon",
+      "submitted_at": "2026-11-27T21:53:03.021136+00:00",
+      "library": "checkpoint3Dadda",
+      "cell": "multiplier",
+      "dut_sha256": "72c52e3995e06725928ac92c094278f8f2a3716fef884e864bea8c1265c54d1e",
+      "passed": 256,
+      "total": 256,
+      "average_power_w": 4.391100845244059e-06,
+      "energy_per_operation_j": 4.3911008452440583e-14,
+      "worst_output_settling_s": 1.0126565994595436e-09,
+      "mos_gate_area_um2": 2.7576,
+      "mos_finger_count": 330.0,
+      "objective_ed2a": 1.2417354396117303e-31,
       "objective_units": "J*s^2*um^2",
       "verified_by_ta": true
     },
@@ -440,23 +457,6 @@
       "mos_gate_area_um2": 12.182400000000008,
       "mos_finger_count": 376.0,
       "objective_ed2a": 5.780453064410625e-31,
-      "objective_units": "J*s^2*um^2",
-      "verified_by_ta": true
-    },
-    {
-      "uniqname": "ethancon",
-      "submitted_at": "2026-11-10T22:51:48.149925+00:00",
-      "library": "checkpoint2",
-      "cell": "mulitplier",
-      "dut_sha256": "c6a14945e6d0271879667856cb35b44cbdd2f9ce9a891245c57e418506092891",
-      "passed": 256,
-      "total": 256,
-      "average_power_w": 8.163390231451942e-06,
-      "energy_per_operation_j": 8.163390231451943e-14,
-      "worst_output_settling_s": 9.831173610716469e-10,
-      "mos_gate_area_um2": 7.516800000000001,
-      "mos_finger_count": 392.0,
-      "objective_ed2a": 5.930813718338289e-31,
       "objective_units": "J*s^2*um^2",
       "verified_by_ta": true
     },
