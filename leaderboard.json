@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-28T02:57:29.621256+00:00",
+  "updated_at": "2026-11-28T03:18:23.640567+00:00",
   "entries": [
     {
       "uniqname": "yaghofgm",
@@ -172,23 +172,6 @@
       "verified_by_ta": true
     },
     {
-      "uniqname": "umichlsk",
-      "submitted_at": "2026-11-28T01:41:05.002630+00:00",
-      "library": "project_design_2",
-      "cell": "carry_save_multiplier",
-      "dut_sha256": "fd48cef801353f3103d02ffe7a86de634753ab9eeb06505a6f5e951226501dd6",
-      "passed": 256,
-      "total": 256,
-      "average_power_w": 6.114232170514844e-06,
-      "energy_per_operation_j": 6.114232170514845e-14,
-      "worst_output_settling_s": 6.490752628164056e-10,
-      "mos_gate_area_um2": 4.896000000000001,
-      "mos_finger_count": 432.0,
-      "objective_ed2a": 1.2611694750139732e-31,
-      "objective_units": "J*s^2*um^2",
-      "verified_by_ta": true
-    },
-    {
       "uniqname": "reidcoop",
       "submitted_at": "2026-11-28T02:55:07.115268+00:00",
       "library": "checkpoint_1",
@@ -270,6 +253,23 @@
       "mos_gate_area_um2": 3.1104000000000025,
       "mos_finger_count": 432.0,
       "objective_ed2a": 1.710686152985227e-31,
+      "objective_units": "J*s^2*um^2",
+      "verified_by_ta": true
+    },
+    {
+      "uniqname": "umichlsk",
+      "submitted_at": "2026-11-28T03:15:25.505205+00:00",
+      "library": "project_design_2",
+      "cell": "carry_save_multiplier",
+      "dut_sha256": "82b13587e68720c90bd0495b76ba1ca8ca60ef03c14fe0336874d44854318e90",
+      "passed": 256,
+      "total": 256,
+      "average_power_w": 7.522513453637851e-06,
+      "energy_per_operation_j": 7.522513453637852e-14,
+      "worst_output_settling_s": 5.917637040469269e-10,
+      "mos_gate_area_um2": 6.5592000000000015,
+      "mos_finger_count": 432.0,
+      "objective_ed2a": 1.7278677339205548e-31,
       "objective_units": "J*s^2*um^2",
       "verified_by_ta": true
     },
