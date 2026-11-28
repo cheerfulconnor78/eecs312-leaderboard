@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-28T01:44:07.180302+00:00",
+  "updated_at": "2026-11-28T02:57:29.621256+00:00",
   "entries": [
     {
       "uniqname": "yaghofgm",
@@ -121,23 +121,6 @@
       "verified_by_ta": true
     },
     {
-      "uniqname": "reidcoop",
-      "submitted_at": "2026-11-27T05:11:50.775960+00:00",
-      "library": "checkpoint_1",
-      "cell": "wallace",
-      "dut_sha256": "5406f690c11a5f4b67555ef01cd520baab4c0caabd48033470bafdabdd0fda66",
-      "passed": 256,
-      "total": 256,
-      "average_power_w": 6.058878806823142e-06,
-      "energy_per_operation_j": 6.058878806823142e-14,
-      "worst_output_settling_s": 6.316735224705223e-10,
-      "mos_gate_area_um2": 4.320000000000001,
-      "mos_finger_count": 336.0,
-      "objective_ed2a": 1.044386762995486e-31,
-      "objective_units": "J*s^2*um^2",
-      "verified_by_ta": true
-    },
-    {
       "uniqname": "johnspit",
       "submitted_at": "2026-11-27T21:49:40.883756+00:00",
       "library": "group3_poject",
@@ -202,6 +185,23 @@
       "mos_gate_area_um2": 4.896000000000001,
       "mos_finger_count": 432.0,
       "objective_ed2a": 1.2611694750139732e-31,
+      "objective_units": "J*s^2*um^2",
+      "verified_by_ta": true
+    },
+    {
+      "uniqname": "reidcoop",
+      "submitted_at": "2026-11-28T02:55:07.115268+00:00",
+      "library": "checkpoint_1",
+      "cell": "carry_save_transmission",
+      "dut_sha256": "3d58f44ab737c387207a8f780e2b09cb1aac2dc5ee505857a09cb6e14813a49c",
+      "passed": 256,
+      "total": 256,
+      "average_power_w": 4.789928796312247e-06,
+      "energy_per_operation_j": 4.7899287963122474e-14,
+      "worst_output_settling_s": 8.0758952108573e-10,
+      "mos_gate_area_um2": 4.1472000000000016,
+      "mos_finger_count": 384.0,
+      "objective_ed2a": 1.2955834380101914e-31,
       "objective_units": "J*s^2*um^2",
       "verified_by_ta": true
     },
